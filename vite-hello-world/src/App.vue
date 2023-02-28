@@ -22,6 +22,9 @@ export default {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+
+  <!-- 3 - Utilizzo il componente AppTitle nel Template come <TAG> -->
+  <AppTitle />
 </template>
 
 <style scoped>
