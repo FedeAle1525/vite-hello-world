@@ -3,11 +3,14 @@
 // 1 - Importo il componente AppTitle.vue
 import AppTitle from './components/AppTitle.vue';
 
+import AppHero from './components/AppHero.vue';
+
 export default {
 
   // 2 - Registro componente "AppTitle.vue" nel DOM
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 
@@ -25,6 +28,8 @@ export default {
 
   <!-- 3 - Utilizzo il componente AppTitle nel Template come <TAG> -->
   <AppTitle />
+
+  <AppHero />
 </template>
 
 <style scoped>
