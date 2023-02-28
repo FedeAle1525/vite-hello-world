@@ -3,7 +3,11 @@
 export default {
 
   data() {
-    title: 'La mia prima App con Vite!'
+
+    return {
+      title: 'La mia prima App con Vite!'
+    }
+
   },
 
 }
