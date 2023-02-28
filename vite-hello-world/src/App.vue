@@ -5,7 +5,12 @@ import AppTitle from './components/AppTitle.vue';
 
 export default {
 
+  // 2 - Registro componente "AppTitle.vue" nel DOM
+  components: {
+    AppTitle
+  }
 }
+
 </script>
 
 <template>
